@@ -1,0 +1,26 @@
+$fuente-principal: "Source Sans Pro", sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: $fuente-principal
+}
+a {
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+}
+p {
+    font-size: 14px;
+}
+label {
+    font-size: 14px;
+}
+a:hover {
+    text-decoration: underline;
+}
+ul {
+    list-style: none;
+}

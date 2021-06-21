@@ -1,0 +1,49 @@
+$fuente-principal: "Source Sans Pro", sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: $fuente-principal
+}
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,88,129,1) 0%, rgba(0,212,255,1) 100%);
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+ul {
+    list-style: none;
+}
+.categorias__titulo {
+    color: white;
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 10px;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: rgba(white, 0.2);
+}
+::-webkit-scrollbar-thumb {
+    color: rgba(51,88,129,0.5);
+}::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar {
+    width: 8px; 
+    height: 8px;   
+    background:rgba(255,255,255,.4);
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  ::-webkit-scrollbar:hover:active {
+    background: #999;
+  }

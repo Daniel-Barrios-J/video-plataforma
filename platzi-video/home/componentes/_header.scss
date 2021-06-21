@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    &__logo {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+    &__logo img {
+        width: 50px;
+        margin-left: 10px;
+    }
+    &__logo a {
+        margin-left:10px ;
+        font-weight: 600;
+    }
+    &__usuario {
+        display: flex;
+        align-items: center;
+    }
+    &__usuario img {
+        width: 30px;
+        height: 30px;
+    }
+    &__usuario a {
+        margin-left: 10px;
+        font-weight: 600;
+    }
+    &__usuario--menu {
+        width: 110px;
+        height: 40px;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__usuario--menu ul {
+        display: none;
+        flex-direction: column;
+        align-items: left;
+        position: absolute; 
+        line-height: 25px;
+        font-size: 14px;
+        top: 35px;
+    }
+    &__usuario--menu:hover ul, ul:hover {
+        display: flex;
+    }
+}

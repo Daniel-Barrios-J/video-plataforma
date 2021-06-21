@@ -1,0 +1,33 @@
+.buscador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    h2 {
+        font-size: 30px;
+        font-weight: 600;
+        color: white;
+    }
+    input {
+        width: 80%;
+        max-width: 450px;
+        height: 40px;
+        color: white;
+        border-radius: 20px;
+        border: 2px solid white;
+        font-size: 16px;
+        font-family: $fuente-principal;
+        padding: 0 20px;
+        background-color: rgba(white,0.1);
+        outline: none;
+    }
+    ::placeholder {
+        color: white;
+    }
+}

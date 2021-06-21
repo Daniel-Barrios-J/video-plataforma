@@ -1,0 +1,35 @@
+.carrusel {
+    
+    width: 100%;
+    overflow: auto;
+    padding-left: 30px;
+    position: relative;
+    &__contenedor {
+        white-space: nowrap;
+        margin: 70px 0;
+        padding-bottom: 10px;
+    }
+    &__item {
+        width: 200px;
+        height: 250px;
+        border-radius: 20px;
+        background-color: aqua;
+        overflow: hidden;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: 250ms;
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+    }
+    // &__item:hover ~ &__item {
+    //     transform: translate3d(20px,0,0);
+    // }
+    &__contenedor:hover &__item {
+        opacity: 0.3;
+    }
+    &__contenedor:hover &__item:hover {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}
